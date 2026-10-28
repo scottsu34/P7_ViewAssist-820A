@@ -1,0 +1,22 @@
+# 构建产物
+out/
+dec/
+*.class
+*.dex
+
+# 签名与密钥（不要上传）
+*.keystore
+*.jks
+*.pem
+
+# 工具与临时文件
+tools/jdk/
+tools/build-tools*/
+tools/platform*/
+tools/apktool.jar
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
